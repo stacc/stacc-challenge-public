@@ -1,0 +1,138 @@
+{
+	"info": {
+		"_postman_id": "613412e2-da17-45ee-aae3-371612bc3f30",
+		"name": "Stacc Code Challenge: KYC",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "16040688"
+	},
+	"item": [
+		{
+			"name": "PEP Søk (med treff)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://code-challenge.stacc.dev/api/pep?name=Knut Arild Hareide",
+					"protocol": "https",
+					"host": [
+						"code-challenge",
+						"stacc",
+						"dev"
+					],
+					"path": [
+						"api",
+						"pep"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "Knut Arild Hareide"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Pep Søk (Ingen treff)",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://code-challenge.stacc.dev/api/pep?name=This person does not exist",
+					"protocol": "https",
+					"host": [
+						"code-challenge",
+						"stacc",
+						"dev"
+					],
+					"path": [
+						"api",
+						"pep"
+					],
+					"query": [
+						{
+							"key": "name",
+							"value": "This person does not exist"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Selskaps Roller",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://code-challenge.stacc.dev/api/roller?orgNr=988971375",
+					"protocol": "https",
+					"host": [
+						"code-challenge",
+						"stacc",
+						"dev"
+					],
+					"path": [
+						"api",
+						"roller"
+					],
+					"query": [
+						{
+							"key": "orgNr",
+							"value": "988971375"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "Selskaps Info",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://code-challenge.stacc.dev/api/enheter?orgNr=981078365",
+					"protocol": "https",
+					"host": [
+						"code-challenge",
+						"stacc",
+						"dev"
+					],
+					"path": [
+						"api",
+						"enheter"
+					],
+					"query": [
+						{
+							"key": "orgNr",
+							"value": "981078365"
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "API Healthz",
+			"request": {
+				"method": "GET",
+				"header": [],
+				"url": {
+					"raw": "https://code-challenge.stacc.dev/healthz",
+					"protocol": "https",
+					"host": [
+						"code-challenge",
+						"stacc",
+						"dev"
+					],
+					"path": [
+						"healthz"
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}
