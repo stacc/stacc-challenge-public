@@ -1,15 +1,10 @@
-# Credit risk scoring
+# Credit Risk Scoring 💰
 
-## Description
+## Filtering Out The Bad Debtors 💸
 
-**We are building a bank and want to attract the best customers!**
+As a part of the *onboarding* process in a bank, all potential customers must be screened by some system that assigns a **credit risk score** to each customer. The calculated score can then be used to set thresholds in the onboarding process, meaning that we can either *accept* or *decline* that customer automatically depending on the risk score that was generated. Depicted below is a simple implementation that demonstrates such scoring process:
 
-As part of the *onboarding* process all potential customers must be *screened* via a credit *risk scoring system*.
-> Risk scoring in this context is a system that is used to assign some risk to a potential customer based on their financial data.
-
-The calculated score can then be used to set thresholds in our onboarding process that either accept or decline potential customers.
-
-Here is a very simple and naive implementation that you can use as inspiration:
+> Definition: A **credit risk score** is a value that is used to quantify the risk of a potential customer based on information such as financial status, debt, age and other factors.
 
 ```javascript
 function calculateCreditRiskScore() {
@@ -27,9 +22,10 @@ if (customerCreditRiskScore > 4) return "declined";
 return "accepted";
 ```
 
-We have provided you with a dataset in the data directory, use whichever format suits you best(json/csv).
+### Example Data
 
-### Data snippet
+The datasets in the `/data` directory can be used to represent potential new customers in a fictional bank, these can be used for your code assignment in whatever format suits you best (csv/json)
+
 
 ```json
 {
@@ -47,33 +43,38 @@ We have provided you with a dataset in the data directory, use whichever format 
         "cb_person_cred_hist_length": "3"
     }
 ```
+
 ---
 
-## Approaches
-There are multiple ways to attack this assignment, all depending on what area you specialize in(UX/Design, Frontend, Backend, or maybe a combination?).
+## Creativity Is Encouraged! 🌟
 
-We are not very stringent on requirements so feel free to take the assignment in whatever direction you want.
-While the subject is *credit risk scoring*, we do (admittedly) not focus too heavily on how the problem itself is solved. This assignment is a simply a means for you to show us what you are capable of and perhaps what area you are the strongest in.
-Feel free to use the chance to explore some new technology, framework, method, etc. **Creativity is encourged!🌞**
+While the general theme of this code assignment is *credit risk scoring*, we do not (admittedly) focus too heavily on how the problem itself is solved. This assignment is a simply a means for you to show us what you are capable of and perhaps what area you are the strongest in. There are multiple ways to approach this code assignment, depending on what type of area you feel most confident in (UX/Frontend, Backend or a combination of both!). Feel free to use the chance to explore some new technology, framework, method, etc.
 
-### Requirements: UX/Design
+## Assignment Approaches ✏️
+
+Below is a list of *suggested* approaches for the code assignment, feel free to explore them all and see if any one (or maybe even a combination) of them fits your skill set!
+
+### a) UX/Design 🎨
+
 We want you to sketch out a website where a user can apply to become a customer in our bank. The user should be able to input some relevant information about themselves (e.g income, name, social security number, current loans and financial status).
 This information will be used to calculate a risk score that will determine if the user can become a customer, the sketch could then include pages that show that you are accepted or rejected as a customer.
 
 1. You can expand upon this task however you want. (e.g sketch a back-office system where the bank employees can evaluate incoming applications)
 
 Inspiration:
-1. https://dribbble.com/search/customer-onboarding-finance
-2. https://www.behance.net/?tracking_source=typeahead_search_direct&search=know+your+customer
-3. The onboarding form at any of nordic financial institutions :)
 
-### Requirements: Frontend
+1. [Dribble.com](https://dribbble.com/search/customer-onboarding-finance)
+2. [Behance.com](https://www.behance.net/?tracking_source=typeahead_search_direct&search=know+your+customer)
+3. The onboarding form at any of nordic financial institutions.
+
+### b) Frontend 🪄
+
 For this system to work we are in need of a frontend where users can apply to become a customer. The user should be able to input some relevant information about themselves (e.g income, name, social security number and current loans). You should then use this information to calculate a risk score which the bank can use to evaluate if they want the user as a customer.
 
 1. You can expand upon this task how you like.
     - create a frontend for a back-office system where bank employees can evaluate incoming applications
 
-### Requirements: Backend
+### c) Backend ⚙️
 
 In this version you are responsible for creating a microservice that does the actual scoring, packaging it, and deploying it.
 
@@ -88,10 +89,11 @@ In this version you are responsible for creating a microservice that does the ac
    1. Your API must be documented using the [Swagger spec](https://swagger.io/specification/)
    2. The service should also expose the swagger API documentation as a static file or via a built in [swagger UI](https://github.com/swagger-api/swagger-ui)
 
-#### Improvements 🤓
-These are not listed in any particular order. Do with these at you please, but they are highly relevant and will knock our 🧦 off.
+### Other Suggestions
 
-1. Host your system somewhere on the internet.
+Here are other suggested tasks you could attempt should you find them interesting, not listed in any order.
+
+1. Host your system / app somewhere on the internet.
 
 2. Thoughtful logging
    1. support multiple log levels
@@ -105,7 +107,7 @@ These are not listed in any particular order. Do with these at you please, but t
 4. Tests
    1. Performance testing
       1. Use whatever approach and tool you feel comfortable with.
-      Suggestions: https://k6.io/, https://gettaurus.org/
+      Suggestions: [k6.io](https://k6.io/), [Taurus](https://gettaurus.org/)
 
    2. Unit testing:
       1. Well written tests can often serve as sanity checks + documentation. Get used to verifying your system.
