@@ -24,7 +24,7 @@ return "accepted";
 
 ### Example Data
 
-The datasets in the `/data` directory can be used to represent potential new customers in a fictional bank, we encourage you to use them for the code assignment in whatever format suits you best (csv/json)
+The datasets in the `/data` directory can be used to represent potential new customers in a fictional bank, these can be used for your code assignment in whatever format suits you best (csv/json)
 
 
 ```json
