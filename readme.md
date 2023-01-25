@@ -50,7 +50,7 @@ We have provided you with a dataset in the data directory, use whichever format 
 ---
 
 ## Approaches
-There are multiple ways to attach this assignment, all depending on what area you spesialize in(UX/Design, Frontend, Backend, or maybe a combination?).
+There are multiple ways to attack this assignment, all depending on what area you spesialize in(UX/Design, Frontend, Backend, or maybe a combination?).
 
 We are not very stringent on requirements so feel free to take the assignment in whatever direction you want.
 While the subject is *credit risk scoring*, we do (admittedly) not focus too heavily on how the problem itself is solved. This assignment is a simply a means for you to show us what you are capable of and perhaps what area you are the strongest in.
@@ -72,10 +72,6 @@ For this system to work we are in need of a frontend where users can apply to be
 
 1. You can expand upon this task how you like.
     - create a frontend for a back-office system where bank employees can evaluate incoming applications
-2. TODO: some additional challenges?
-
-Inspiration:
-TODO:
 
 ### Requirements: Backend
 
