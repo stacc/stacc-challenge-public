@@ -7,7 +7,7 @@
 As part of the *onboarding* process all potential customers must be *screened* via a credit *risk scoring system*.
 > Risk scoring in this context is a system that is used to assign some risk to a potential customer based on their financial data.
 
-The calcualted score can then be used to set thresholds in our onboarding process that either accept or decline potential customers.
+The calculated score can then be used to set thresholds in our onboarding process that either accept or decline potential customers.
 
 Here is a very simple and naive implementation that you can use as inspiration:
 
@@ -50,14 +50,14 @@ We have provided you with a dataset in the data directory, use whichever format 
 ---
 
 ## Approaches
-There are multiple ways to attack this assignment, all depending on what area you spesialize in(UX/Design, Frontend, Backend, or maybe a combination?).
+There are multiple ways to attack this assignment, all depending on what area you specialize in(UX/Design, Frontend, Backend, or maybe a combination?).
 
 We are not very stringent on requirements so feel free to take the assignment in whatever direction you want.
 While the subject is *credit risk scoring*, we do (admittedly) not focus too heavily on how the problem itself is solved. This assignment is a simply a means for you to show us what you are capable of and perhaps what area you are the strongest in.
 Feel free to use the chance to explore some new technology, framework, method, etc. **Creativity is encourged!🌞**
 
 ### Requirements: UX/Design
-We want you to sketch out a website where a user can apply to become a customer in our bank. The user should be able to input some relevant information about themselves (e.g income, name, social security number, current loans and financials).
+We want you to sketch out a website where a user can apply to become a customer in our bank. The user should be able to input some relevant information about themselves (e.g income, name, social security number, current loans and financial status).
 This information will be used to calculate a risk score that will determine if the user can become a customer, the sketch could then include pages that show that you are accepted or rejected as a customer.
 
 1. You can expand upon this task however you want. (e.g sketch a back-office system where the bank employees can evaluate incoming applications)
@@ -68,7 +68,7 @@ Inspiration:
 3. The onboarding form at any of nordic financial institutions :)
 
 ### Requirements: Frontend
-For this system to work we are in need of a frontend where users can apply to become a customer. The user should be able to input some relevant information about themselves (e.g income, name, social secutiry number and current loans). You should then use this information to calculate a risk score which the bank can use to evaluate if they want the user as a customer.
+For this system to work we are in need of a frontend where users can apply to become a customer. The user should be able to input some relevant information about themselves (e.g income, name, social security number and current loans). You should then use this information to calculate a risk score which the bank can use to evaluate if they want the user as a customer.
 
 1. You can expand upon this task how you like.
     - create a frontend for a back-office system where bank employees can evaluate incoming applications
@@ -110,7 +110,7 @@ These are not listed in any particular order. Do with these at you please, but t
    2. Unit testing:
       1. Well written tests can often serve as sanity checks + documentation. Get used to verifying your system.
 
-5. CI/CD pipeline from your repository to whereever the service is hosted
+5. CI/CD pipeline from your repository to wherever the service is hosted
 
 ## How to deliver
 
