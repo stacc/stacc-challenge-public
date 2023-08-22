@@ -1,0 +1,36 @@
+{
+  "accounts": [
+    {
+      "id": "acc123",
+      "account_number": "********1234",
+      "account_type": "Checking",
+      "balance": 15000.25,
+      "currency": "NOK",
+      "owner": "Alice"
+    },
+    {
+      "id": "acc456",
+      "account_number": "********5678",
+      "account_type": "Savings",
+      "balance": 25000.75,
+      "currency": "NOK",
+      "owner": "Bob"
+    },
+    {
+      "id": "acc789",
+      "account_number": "********9876",
+      "account_type": "Checking",
+      "balance": 2000.5,
+      "currency": "NOK",
+      "owner": "Charlie"
+    },
+    {
+      "id": "acc012",
+      "account_number": "********2109",
+      "account_type": "Savings",
+      "balance": 8000.0,
+      "currency": "NOK",
+      "owner": "David"
+    }
+  ]
+}
