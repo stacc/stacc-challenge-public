@@ -4,9 +4,9 @@
 
 Budgeting and saving must be one of the most boring things you could do, and most of us would probably find it much more fun to spend our hard earned cash! But saving your money and spending it wisely is probably the smart thing to do, especially now with costs and mortage rates rising.
 
-Banks are not that great at incentivizing their customers either; does your banks savings solution make you really **pumped** to save? There is also the problem with the interest rate for deposits. The problem is that it is much lower than the loan interest rate, and rises at a much smaller pace as well.
+Banks are not that great at incentivizing their customers either; does your banks savings solution make you really **pumped** to save? There is also the problem with the interest rate for deposits. The problem is that it is much lower than the loan interest rate, and rises at a much slower pace as well.
 
-We therefore challenge you to help us and the banks make this financial product more fun and incentivizing for the customer to save their money.
+We therefore challenge you to help us and the banks to make this financial product more fun and incentivizing for the customer to save their money.
 You can sketch up a fun interactive UI, design/code some nifty graphs that show when I can buy my dream motorcycle or create a backend system with the core functionality ready to build cool stuff on!
 
 See the [inspiration section](#inspiration) to see real-life examples of how it might be done.
