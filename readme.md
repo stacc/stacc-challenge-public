@@ -69,19 +69,30 @@ Below is a list of _suggested_ approaches for the code assignment, feel free to 
 
 ### a) UX/Design 🎨
 
-TODO
+- [Gamification](https://www.interaction-design.org/literature/topics/gamification) is often an effective way to engange people in tedious tasks. Maybe look how to incorporate gamification elements in your design?
+- Incorporating AI aspects might be worth exploring 🤖
+- See how savings and budgeting might be brought out of the interface of the banks. This is called [embedded finance](https://plaid.com/resources/fintech/what-is-embedded-finance/) where financial products that have usually lived within the bank interface is brought into non-traditional interfaces.
+- Often enough creating unique and new visualizations can be enough to engage users. See how you might "twist" how savings is usually represented
 
 ### b) Frontend 🪄
 
-TODO
+- Create a interface that allows the user to see how much they have saved, set savings goal and compare with other users in their demographic (age, gender, geography etc ...)
+- Use graphs to represent the data you have
+- Communicate with an API to do calculations, store/get data or something entirely else ...
+- Integrate with external API's, maybe [OpenAI](https://platform.openai.com/docs/api-reference)
 
 ### c) Backend ⚙️
 
-TODO
+- Set up a system that can handle receiving savings goals from the frontend and giving them back when requested
+- Use a database (Relational, non-relational etc...)
+- Develop a reward system that rewards the user for hitting different milestones
+- Use account data or transaction data to intelligently set saving goals or changes to savings
 
-### Other Suggestions
+## Happy hacking 🎉
 
-TODO
+We hope that you find the challenge interesting and rewarding! As mentioned, do not be afraid to reach out to us!
+
+Before you leave, please check out how to deliver below!
 
 ## How to deliver
 
