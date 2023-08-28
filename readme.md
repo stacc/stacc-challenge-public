@@ -94,6 +94,8 @@ We hope that you find the challenge interesting and rewarding! As mentioned, do 
 
 Before you leave, please check out how to deliver below!
 
+# DEADLINE: 18. SEPTEMBER 23:59:00
+
 ## How to deliver
 
 [**See the readme on main**](https://github.com/stacc/stacc-challenge-public/blob/main/readme.md)
