@@ -1,5 +1,7 @@
 # Budgeting and savings 💰
 
+## DEADLINE: 18. SEPTEMBER 23:59:00
+
 ## Help us make the boring chore of saving money, fun! 💸
 
 Budgeting and saving must be one of the most boring things you could do, and most of us would probably find it much more fun to spend our hard earned cash! But saving your money and spending it wisely is probably the smart thing to do, especially now with costs and mortage rates rising.
@@ -93,8 +95,6 @@ Below is a list of _suggested_ approaches for the code assignment, feel free to 
 We hope that you find the challenge interesting and rewarding! As mentioned, do not be afraid to reach out to us!
 
 Before you leave, please check out how to deliver below!
-
-# DEADLINE: 18. SEPTEMBER 23:59:00
 
 ## How to deliver
 
