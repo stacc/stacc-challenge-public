@@ -11,7 +11,6 @@ You can sketch up a fun interactive UI, design/code some nifty graphs that show 
 
 See the [inspiration section](#inspiration) to see real-life examples of how it might be done.
 
-If you have any questions before, during or after the challenge, do not be afraid to reach out to us in our _[discord channel](https://discord.gg/s2RyPJvBqQ)_. Stacc employees have unique roles and you can message any of us!
 
 ### Example Data 📊
 
@@ -89,11 +88,3 @@ Below is a list of _suggested_ approaches for the code assignment, feel free to 
 - Use account data or transaction data to intelligently set saving goals or changes to savings
 
 ## Happy hacking 🎉
-
-We hope that you find the challenge interesting and rewarding! As mentioned, do not be afraid to reach out to us!
-
-Before you leave, please check out how to deliver below!
-
-## How to deliver
-
-[**See the readme on main**](https://github.com/stacc/stacc-challenge-public/blob/main/readme.md)
